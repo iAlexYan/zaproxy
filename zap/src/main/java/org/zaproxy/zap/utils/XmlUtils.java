@@ -38,7 +38,7 @@ public final class XmlUtils {
     public static DocumentBuilderFactory newXxeDisabledDocumentBuilderFactory()
             throws ParserConfigurationException {
         // Disable XXE processing, not required by default.
-        // https://www.owasp.org/index.php/XML_External_Entity_%28XXE%29_Processing
+        // https://www.shjtest.com/index.php/XML_External_Entity_%28XXE%29_Processing
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         factory.setFeature("http://apache.org/xml/features/disallow-doctype-decl", true);
         factory.setFeature("http://xml.org/sax/features/external-general-entities", false);

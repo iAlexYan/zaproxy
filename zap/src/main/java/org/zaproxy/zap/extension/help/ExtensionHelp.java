@@ -209,7 +209,7 @@ public class ExtensionHelp extends ExtensionAdaptor {
 
             getMenuHelpZapUserGuide().addActionListener(showHelpActionListener);
             getMenuHelpZapUserGuide().setToolTipText(null);
-            getMenuHelpZapUserGuide().setEnabled(true);
+//            getMenuHelpZapUserGuide().setEnabled(true);
 
             // Enable the top level F1 help key
             hb.enableHelpKey(rootPane, "zap.intro", hs, "javax.help.SecondaryWindow", null);
@@ -219,7 +219,7 @@ public class ExtensionHelp extends ExtensionAdaptor {
             }
 
             getHelpButton().setToolTipText(Constant.messages.getString("help.button.tooltip"));
-            getHelpButton().setEnabled(true);
+//            getHelpButton().setEnabled(true);
 
         } else {
             String toolTipNoHelp = Constant.messages.getString("help.error.nohelp");

@@ -79,8 +79,8 @@ public class ExtensionOption extends ExtensionAdaptor {
             extensionHook.getHookView().addOptionPanel(getOptionsConnectionPanel());
             extensionHook.getHookView().addOptionPanel(getOptionsCertificatePanel());
             extensionHook.getHookView().addOptionPanel(getOptionsViewPanel());
-            extensionHook.getHookView().addOptionPanel(getOptionsCheckForUpdatesPanel());
-            extensionHook.getHookView().addOptionPanel(getOptionsLangPanel());
+//            extensionHook.getHookView().addOptionPanel(getOptionsCheckForUpdatesPanel());
+//            extensionHook.getHookView().addOptionPanel(getOptionsLangPanel());
             // ZAP: Added the statement.
             extensionHook.getHookView().addOptionPanel(getOptionsDatabasePanel());
             extensionHook.getHookView().addOptionPanel(getOptionsJvmPanel());

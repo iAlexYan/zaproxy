@@ -715,11 +715,11 @@ public class ExtensionAutoUpdate extends ExtensionAdaptor
     public void hook(ExtensionHook extensionHook) {
         super.hook(extensionHook);
         if (getView() != null) {
-            extensionHook.getHookMenu().addHelpMenuItem(getMenuItemCheckUpdate());
+//            extensionHook.getHookMenu().addHelpMenuItem(getMenuItemCheckUpdate());
             extensionHook.getHookMenu().addFileMenuItem(getMenuItemLoadAddOn());
 
             extensionHook.getHookView().addMainToolBarComponent(getAddonsButton());
-            extensionHook.getHookView().addMainToolBarComponent(getCheckForUpdatesButton());
+//            extensionHook.getHookView().addMainToolBarComponent(getCheckForUpdatesButton());
 
             getView()
                     .getMainFrame()

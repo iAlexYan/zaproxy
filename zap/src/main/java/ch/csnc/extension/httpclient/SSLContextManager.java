@@ -1,6 +1,6 @@
 /*
  * This file is part of WebScarab, an Open Web Application Security
- * Project utility. For details, please see http://www.owasp.org/
+ * Project utility. For details, please see http://www.shjtest.com/
  *
  * Copyright (c) 2002 - 2004 Rogan Dawes
  *

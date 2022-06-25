@@ -164,22 +164,22 @@ import org.zaproxy.zap.utils.ZapXmlConfiguration;
 
 public final class Constant {
     // ZAP: rebrand
-    public static final String PROGRAM_NAME = "Alex WIA";
-    public static final String PROGRAM_NAME_SHORT = "ZAP";
+    public static final String PROGRAM_NAME = "SHJZapPro";
+    public static final String PROGRAM_NAME_SHORT = "SHJZapPro";
     /** @deprecated (2.9.0) Do not use, it will be removed. */
-    @Deprecated public static final String ZAP_HOMEPAGE = "http://www.owasp.org/index.php/ZAP";
+    @Deprecated public static final String ZAP_HOMEPAGE = "http://www.shjtest.com/index.php/ZAP";
     /** @deprecated (2.9.0) Do not use, it will be removed. */
     @Deprecated
     public static final String ZAP_EXTENSIONS_PAGE = "https://github.com/zaproxy/zap-extensions";
 
-    public static final String ZAP_TEAM = "ZAP Dev Team";
-    public static final String PAROS_TEAM = "Chinotec Technologies";
+    public static final String ZAP_TEAM = "SHJZapPro Dev Team";
+    public static final String PAROS_TEAM = "SHJ Technologies";
 
     //  ************************************************************
     //  the config.xml MUST be set to be the same as the version_tag
     //  otherwise the config.xml will be overwritten everytime.
     //  ************************************************************
-    private static final String DEV_VERSION = "Dev Build";
+    private static final String DEV_VERSION = "v1.0.2";
     public static final String ALPHA_VERSION = "alpha";
     public static final String BETA_VERSION = "beta";
 
@@ -217,7 +217,7 @@ public final class Constant {
     public static String PROGRAM_VERSION = DEV_VERSION;
     public static String PROGRAM_TITLE = PROGRAM_NAME + " " + PROGRAM_VERSION;
 
-    public static final String SYSTEM_PAROS_USER_LOG = "zap.user.log";
+    public static final String SYSTEM_PAROS_USER_LOG = "SHJZapPro.user.log";
 
     public static final String FILE_SEPARATOR = System.getProperty("file.separator");
 
