@@ -54,7 +54,7 @@ if [ $JAVA_MAJOR_VERSION -ge 9 ]; then
 elif [ $JAVA_MAJOR_VERSION -ge 1 ] && [ $JAVA_MINOR_VERSION -ge 8 ]; then
   echo "Found Java version $JAVA_VERSION"
 else
-  echo "Exiting: ZAP requires a minimum of Java 8 to run, found $JAVA_VERSION"
+  echo "Exiting: SHJZapPro requires a minimum of Java 8 to run, found $JAVA_VERSION"
   exit 1
 fi
 

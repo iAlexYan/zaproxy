@@ -36,7 +36,7 @@ dependencies {
     if (JavaVersion.current() != JavaVersion.VERSION_1_8)
         implementation("gradle.plugin.install4j.install4j.buildtools:gradle_publish:9.0.2")
     else
-        // Just for compilation, not actually used (installers task is replaced).
+    // Just for compilation, not actually used (installers task is replaced).
         implementation("gradle.plugin.install4j.install4j:gradle_plugin:8.0.11")
     implementation("me.champeau.gradle:japicmp-gradle-plugin:0.2.9")
     // A japicmp dependency being excluded by japicmp-gradle-plugin.

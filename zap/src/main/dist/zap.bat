@@ -1,7 +1,9 @@
-if exist "%USERPROFILE%\OWASP ZAP\.ZAP_JVM.properties" (
-	set /p jvmopts=< "%USERPROFILE%\OWASP ZAP\.ZAP_JVM.properties"
+@echo off
+
+if exist "%USERPROFILE%\SHJZapPro\.ZAP_JVM.properties" (
+	set /p jvmopts=< "%USERPROFILE%\SHJZapPro\.ZAP_JVM.properties"
 ) else (
-	set jvmopts=-Xmx512m
+	set jvmopts=-Xmx1g
 )
 
-java %jvmopts% -jar @zapJar@ %*
+start javaw %jvmopts% -jar @zapJar@ %*
