@@ -111,9 +111,9 @@ public class MainMenuBar extends JMenuBar {
         this.add(getMenuAnalyse());
         this.add(getMenuReport());
         this.add(getMenuTools());
-        this.add(getMenuImport());
-        this.add(getMenuOnline());
-        this.add(getMenuHelp());
+//        this.add(getMenuImport());
+//        this.add(getMenuOnline());
+//        this.add(getMenuHelp());
     }
 
     /**

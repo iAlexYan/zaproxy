@@ -144,6 +144,7 @@ import java.util.jar.Attributes;
 import java.util.jar.Manifest;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
 import org.apache.commons.configuration.ConfigurationException;
 import org.apache.commons.configuration.ConversionException;
 import org.apache.commons.configuration.HierarchicalConfiguration;
@@ -166,9 +167,14 @@ public final class Constant {
     // ZAP: rebrand
     public static final String PROGRAM_NAME = "SHJZapPro";
     public static final String PROGRAM_NAME_SHORT = "SHJZapPro";
-    /** @deprecated (2.9.0) Do not use, it will be removed. */
-    @Deprecated public static final String ZAP_HOMEPAGE = "http://www.shjtest.com/index.php/ZAP";
-    /** @deprecated (2.9.0) Do not use, it will be removed. */
+    /**
+     * @deprecated (2.9.0) Do not use, it will be removed.
+     */
+    @Deprecated
+    public static final String ZAP_HOMEPAGE = "http://www.shjtest.com/index.php/ZAP";
+    /**
+     * @deprecated (2.9.0) Do not use, it will be removed.
+     */
     @Deprecated
     public static final String ZAP_EXTENSIONS_PAGE = "https://github.com/zaproxy/zap-extensions";
 
@@ -223,9 +229,10 @@ public final class Constant {
 
     /**
      * @deprecated (2.4.2) The path does not take into account the installation directory, use
-     *     {@link #getPathDefaultConfigFile()} instead.
+     * {@link #getPathDefaultConfigFile()} instead.
      */
-    @Deprecated public static final String FILE_CONFIG_DEFAULT = "xml/config.xml";
+    @Deprecated
+    public static final String FILE_CONFIG_DEFAULT = "xml/config.xml";
 
     public static final String FILE_CONFIG_NAME = "config.xml";
     public static final String FOLDER_PLUGIN = "plugin";
@@ -233,11 +240,12 @@ public final class Constant {
      * The name of the directory for filter related files (the path should be built using {@link
      * #getZapHome()} as the parent directory).
      *
-     * @deprecated (2.8.0) Should not be used, the filter functionality is deprecated (replaced by
-     *     scripts and Replacer add-on).
      * @since 1.0.0
+     * @deprecated (2.8.0) Should not be used, the filter functionality is deprecated (replaced by
+     * scripts and Replacer add-on).
      */
-    @Deprecated public static final String FOLDER_FILTER = "filter";
+    @Deprecated
+    public static final String FOLDER_FILTER = "filter";
 
     /**
      * The name of the directory where the (file) sessions are saved by default.
@@ -329,7 +337,9 @@ public final class Constant {
      */
     private static final Locale SYSTEMS_LOCALE = Locale.getDefault();
 
-    /** The path to bundled (in zap.jar) config.xml file. */
+    /**
+     * The path to bundled (in zap.jar) config.xml file.
+     */
     private static final String PATH_BUNDLED_CONFIG_XML =
             "/org/zaproxy/zap/resources/" + FILE_CONFIG_NAME;
 
@@ -351,9 +361,10 @@ public final class Constant {
 
     /**
      * @deprecated (2.4.0) Use {@link #VULNERABILITIES_PREFIX} instead. It will be removed in a
-     *     following release.
+     * following release.
      */
-    @Deprecated public static String VULNS_BASE = VULNERABILITIES_PREFIX;
+    @Deprecated
+    public static String VULNS_BASE = VULNERABILITIES_PREFIX;
 
     /**
      * Extension (with dot) of vulnerabilities.xml files.
@@ -537,7 +548,7 @@ public final class Constant {
         File f = null;
 
         // Set up the version from the manifest
-        PROGRAM_VERSION = getVersionFromManifest();
+        // PROGRAM_VERSION = getVersionFromManifest();
         PROGRAM_TITLE = PROGRAM_NAME + " " + PROGRAM_VERSION;
 
         if (zapHome == null) {
@@ -1587,8 +1598,8 @@ public final class Constant {
                 try {
                     containerName =
                             new String(
-                                            Files.readAllBytes(containerFile.toPath()),
-                                            StandardCharsets.UTF_8)
+                                    Files.readAllBytes(containerFile.toPath()),
+                                    StandardCharsets.UTF_8)
                                     .trim();
                     if (inWebSwing) {
                         // Append the webswing name so we don't loose the docker image name
