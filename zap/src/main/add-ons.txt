@@ -29,7 +29,7 @@ https://github.com/zaproxy/zap-extensions/releases/download/network-v0.0.1/netwo
 https://github.com/zaproxy/zap-extensions/releases/download/onlineMenu-v9/onlineMenu-release-9.zap 14d46e64178caf551462eb77478002ba08946ff639a1a52007527c41fd85bbee
 https://github.com/zaproxy/zap-extensions/releases/download/openapi-v24/openapi-beta-24.zap f303e331e74ba2c624717b354bacaf2034e63be44de88c1f13b970e9b5090748
 https://github.com/zaproxy/zap-extensions/releases/download/pscanrules-v37/pscanrules-release-37.zap 08d608c19f9868c8ee8ca7b88a39b0ec3efe24ae2ca1651def8c0b83d6eac577
-https://github.com/zaproxy/zap-extensions/releases/download/quickstart-v32/quickstart-release-32.zap 394b1b541d5e897dcadc5a98beaa986855f3f1fac2dc7d2c133fbbc7227bab1f
+#https://github.com/zaproxy/zap-extensions/releases/download/quickstart-v32/quickstart-release-32.zap 394b1b541d5e897dcadc5a98beaa986855f3f1fac2dc7d2c133fbbc7227bab1f
 https://github.com/zaproxy/zap-extensions/releases/download/replacer-v9/replacer-beta-9.zap 0950fac81a04e0bb791fa514aac145e05fd3483f95584dd00d880157f65c12e3
 #https://github.com/zaproxy/zap-extensions/releases/download/reports-v0.10.0/reports-release-0.10.0.zap 5f3117453ae368c6121c49aa0ba8123efa18f3edaf7d93c72db0d5ac976c8dfc
 https://github.com/zaproxy/zap-extensions/releases/download/retest-v0.2.0/retest-alpha-0.2.0.zap b2fca87abb96b6e3748b3d834e6dd3e0f5cfbc2fede6c20b82cf157d87cbf2bf
